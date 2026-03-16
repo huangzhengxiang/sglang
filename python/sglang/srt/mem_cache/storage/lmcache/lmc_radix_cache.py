@@ -13,6 +13,7 @@ from sglang.srt.mem_cache.base_prefix_cache import (
     MatchResult,
 )
 from sglang.srt.mem_cache.radix_cache import RadixCache, RadixKey, TreeNode
+from sglang.srt.configs.model_config import AttentionArch
 
 try:
     from lmcache.integration.sglang.sglang_adapter import (
